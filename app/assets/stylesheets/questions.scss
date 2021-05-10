@@ -4,10 +4,13 @@
 body {
   font-family: monospace;
   margin: 0 auto;
+  justify-content: center;
+  display: flex;
 }
 
 .container {
   text-align: center;
+  width: 50%;
 }
 
 .btn {
@@ -16,4 +19,24 @@ body {
   border-radius: 5px;
   border-style: none;
   padding: 5px 10px;
+}
+
+.question {
+  background-color: rgba(210, 180, 140, 0.5);
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.answer {
+  background-color: rgba(0, 128, 128, 0.5);
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
 }
